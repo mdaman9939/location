@@ -11,7 +11,7 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://localhost:27017/excelImportDB", {
+  .connect("mongodb+srv://mdaman9939:A123456@cluster0.5kgahgx.mongodb.net/location?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
